@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+     <!-- 1 -->
+     
+     <p>С другой стороны, экономическая повестка сегодняшнего дня предоставляет широкие возможности для своевременного выполнения сверхзадачи. Прежде всего, реализация намеченных плановых заданий позволяет оценить значение модели развития. Задача организации, в особенности же высококачественный прототип будущего проекта играет важную роль в формировании системы массового участия. В целом, конечно, высокотехнологичная концепция общественного уклада позволяет выполнить важные задания по разработке анализа существующих паттернов поведения.</p>
+
+     <p> Равным образом, постоянное информационно-пропагандистское обеспечение нашей деятельности играет определяющее значение для благоприятных перспектив. Сложно сказать, почему многие известные личности будут призваны к ответу! Каждый из нас понимает очевидную вещь: высокое качество позиционных исследований позволяет оценить значение благоприятных перспектив. В своём стремлении улучшить пользовательский опыт мы упускаем, что действия представителей оппозиции формируют глобальную экономическую сеть и при этом — заблокированы в рамках своих собственных рациональных ограничений. Каждый из нас понимает очевидную вещь: граница обучения кадров требует от нас анализа поставленных обществом задач. Безусловно, сплочённость команды профессионалов предполагает независимые способы реализации направлений прогрессивного развития.</p>
+        
+     <p>  В целом, конечно, высокотехнологичная концепция общественного уклада способствует повышению качества как самодостаточных, так и внешне зависимых концептуальных решений. В частности, базовый вектор развития, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для дальнейших направлений развития.</p>
+        
+     <p> Для современного мира убеждённость некоторых оппонентов способствует повышению качества экспериментов, поражающих по своей масштабности и грандиозности. Таким образом, высококачественный прототип будущего проекта прекрасно подходит для реализации форм воздействия. Также как укрепление и развитие внутренней структуры влечет за собой процесс внедрения и модернизации приоретизации разума над эмоциями. Современные технологии достигли такого уровня, что убеждённость некоторых оппонентов напрямую зависит от новых предложений.</p>
+        
+     <p> Приятно, граждане, наблюдать, как представители современных социальных резервов, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут своевременно верифицированы. Картельные сговоры не допускают ситуации, при которой представители современных социальных резервов будут превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</p>
+        
+     <p> С другой стороны, новая модель организационной деятельности играет важную роль в формировании благоприятных перспектив. Сложно сказать, почему некоторые особенности внутренней политики неоднозначны и будут обнародованы.</p>
+
+     <body onload="loading()"></body>    
+     <button onclick="button()">sss</button>
+    <script>
+    function loading(){
+    window.timeShower = window.setInterval(buttonl, 3000);
+    }
+    function button(){
+     window.scrollTo(0, 500);
+    }</script>
+
+    <!-- 10 -->
+     <style>
+        table{
+            width:400px;
+            margin:0 auto;
+        }
+        table tr td{
+            border:1px solid silver;
+        }
+        .box {
+            width:400px;
+            margin:0 auto;
+        }
+    </style>
+    
+    <table>
+        <tr>
+            <td>Имя</td>
+            <td>Фамилия</td>
+        </tr>
+        <tr>
+            <td>Иван</td>
+            <td>Иванов</td>
+        </tr>
+        <tr>
+            <td>Петр</td>
+            <td>Захаров</td>
+        </tr>
+        <tr>
+            <td>Sturmpanzerwagen</td>
+            <td>Oberschlesien</td>
+        </tr>
+        <tr>
+            <td>Panzerkampfwagen IV mit</td>
+            <td>hydrostatischem Antrieb</td>
+        </tr>
+    </table>
+    <div class="box"> 
+        <input type="text" class="name">Имя <br>
+        <input type="text" class="surname">Фамилия <br>
+        <button>Отправить</button>
+    </div>
+
+    <!-- 8 -->
+    <style>
+        .cliker{
+            margin-left: 1000px;
+        }
+    </style>
+    <input type="button" class="cliker" onclick="clickCounter()">
+    <script>
+        let clicks = +localStorage.getItem('clicks');
+        const button = document.querySelector('input[type="button"]');
+        button.value = `Нажата ${clicks} раз`;
+        function clickCounter() {
+        localStorage.setItem('clicks', ++clicks);
+        button.value = `Нажата ${clicks} раз`;
+        }
+    </script>
+
+    <!-- 7 -->
+    <style>
+        .number{
+            width:400px;
+            margin:0 auto;
+        }
+        .number{
+            border:1px solid silver;
+        }
+        .number{
+            width:100px;
+            margin:0 auto;
+        }
+    </style>
+    <p class="number">2</p>
+    <p class="number">3</p>
+    <p class="number">4</p>
+    <script>
+        var elems = document.getElementsByTagName('p');
+        for (var i = 0; i < elems.length; i++) {
+            elems[i].addEventListener('click', func);
+        }
+
+        function func() {
+            this.innerHTML = this.innerHTML * this.innerHTML;
+        }
+    </script>
+
+    <!-- 6 -->
+    <style>
+        .www{
+            margin-left: 900px;
+        }
+    </style>
+    <a href="http://ya.ru" class="www" title="">Первоая ссылка</a>
+    <a href="http://tut.by" class="www" title="">Вторая ссылка</a>
+    <a href="http://google.com" class="www" title="">Третья ссылка</a>
+    <script>
+        var elems = document.getElementsByTagName('a');
+        for (var i = 0; i < elems.length; i++) {
+            elems[i].addEventListener('mouseover', func);
+        }
+
+        function func() {
+            this.innerHTML = this.innerHTML + ' (' + this.href + ')';
+        }
+    </script>
+
+    <!-- 4 -->
+    <style>
+    .cities {
+        display: none;
+        
+    }
+    .active.cities {
+        display: inline-block;
+    }
+    </style>
+    <select id="countries">
+        <option value="ru">Россия</option>
+        <option value="us">America</option>
+        <option value="jp">Japan</option>
+    </select>
+    
+    <select id="ru" class="cities active">
+        <option>Елабуга</option>
+        <option>Казань</option>
+        <option>Ижевск</option>
+    </select>
+    <select id="us" class="cities">
+        <option>New York</option>
+        <option>Compton</option>
+        <option>Boston</option>
+    </select>
+    <select id="jp" class="cities">
+        <option>Tokyo</option>
+        <option>Osaka</option>
+        <option>Hirosima</option>
+    </select>
+    <script>
+        var countries = document.querySelector('#countries');
+        var ruCities = document.querySelector('#ru');
+        var byCities = document.querySelector('#us');
+        var uaCities = document.querySelector('#jp');
+        countries.addEventListener('change', function() {
+            document.querySelector('.active.cities').classList.remove('active');
+                
+            if(this.value == 'ru') {
+                ruCities.classList.add('active');
+            }
+            if(this.value == 'us') {
+                byCities.classList.add('active');
+            }
+            if(this.value == 'jp') {
+                uaCities.classList.add('active');
+            }
+        });
+    </script>
+
+    <!-- 9 -->
+    <ul id="ul">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+        
+        <button class="btn1">Add Item</button>
+        <script>
+         var ul = document.getElementById("ul");
+        ul.addEventListener("click", function func(event) {
+            var li = event.target.closest("li");
+            
+
+            if (li) {
+                li.innerHTML +="!"; 
+            }
+        });
+
+        var but = document.getElementsByClassName("btn1")[0];
+
+        but.addEventListener("click", function() {
+
+        var liElem = document.createElement("li");
+        liElem.innerHTML = 'пункт';
+        ul.appendChild(liElem);
+        });
+        </script>
+
+        <!-- 3 -->
+        <style>
+        input{   
+            display: block;
+            padding: 3px;
+            margin: 5px;
+            width: 300px;
+        }
+        </style>
+        <div id="form">
+            <input type="text" placeholder='Введите число'>
+            <input type="text" placeholder='Введите число'>
+            <input type="text" placeholder='Введите число'>
+            <input type="text" placeholder='Введите число'>
+            <input type="text" placeholder='Введите число'>
+            <input type="text" placeholder='Введите число'>
+            <input type="text" placeholder='Тут будет сумма 6-ти чисел'>
+            <button onclick='formsum()'>Рассчитать</button>
+        </div>
+        <script>
+            function formsum(){
+            var	inp = document.querySelectorAll("#form input");
+            var sum = 0;
+            for(var i=0; i<inp.length-1; i++){
+                sum = sum + Number(inp[i].value);	
+            }
+            inp[6].value=sum;
+            }
+        </script>
+
+        <ol id="ol">
+            <li>item1</li>
+            <li>item2</li>
+        </ol>
+            
+        <!-- 5 -->
+            <button class="btn11">Add Item</button>
+            <script>
+            
+            var but = document.getElementsByClassName("btn11")[0];
+
+            but.addEventListener("click", function() {
+
+            var liElem = document.createElement("li");
+            liElem.innerHTML = 'пункт';
+            ol.appendChild(liElem);
+            });
+            </script>
+
+        <!-- 2 -->
+        <button onclick="alert('Количество вертикальных прокруток : ' + window.pageYOffset )">Нажми меня!</button>
+
+       
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
